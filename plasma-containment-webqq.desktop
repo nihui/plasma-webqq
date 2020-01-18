@@ -1,0 +1,20 @@
+[Desktop Entry]
+Name=WebQQ
+Comment=WebQQ desktop
+Comment[zh_CN]=WebQQ 桌面
+Icon=plasmawebqq
+Type=Service
+X-KDE-ServiceTypes=Plasma/Containment
+X-Plasma-ContainmentCategories=netbool,desktop
+NoDisplay=false
+
+X-KDE-Library=plasma_containment_webqq
+X-KDE-PluginInfo-Author=Ni Hui
+X-KDE-PluginInfo-Email=shuizhuyuanluo@126.com
+X-KDE-PluginInfo-Name=webqq
+X-KDE-PluginInfo-Version=0.6
+X-KDE-PluginInfo-Website=http://shuizhuyuanluo.blog.163.com/
+X-KDE-PluginInfo-Category=Containments
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-EnabledByDefault=true

@@ -1,0 +1,11 @@
+[Global]
+Name=WebQQ
+IconName=plasmawebqq
+Comment=Plasma WebQQ
+
+[Event/message]
+Name=New message
+Name[zh_CN]=新消息
+Comment=You have got a new message
+Comment[zh_CN]=您有新消息
+Action=Popup

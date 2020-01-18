@@ -1,0 +1,56 @@
+# Copyright (C) YEAR This_file_is_part_of_plasma-webqq
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://bugs.kde.org\n"
+"POT-Creation-Date: 2012-05-16 10:26+0800\n"
+"PO-Revision-Date: 2012-05-15 17:30+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: Chinese Simplified <kde-china@kde.org>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 1.4\n"
+
+#. i18n: file: webqqconfig.ui:26
+#. i18n: ectx: property (text), widget (QLabel, accountLabel)
+#: rc.cpp:6
+msgid "Account: "
+msgstr "帐号："
+
+#: webqq.cpp:228
+msgid "Chat"
+msgstr "聊天"
+
+#. i18n: file: webqqconfig.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, m_autoLogin)
+#: rc.cpp:3
+msgid "Enable autologin"
+msgstr "启用自动登录"
+
+#. i18n: file: webqqconfig.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, m_invisibleMode)
+#: rc.cpp:15
+msgid "Invisible mode"
+msgstr "隐身模式"
+
+#. i18n: file: webqqconfig.ui:52
+#. i18n: ectx: property (text), widget (QCheckBox, m_loginQQ)
+#: rc.cpp:12
+msgid "Login to QQ"
+msgstr "登录到 QQ"
+
+#. i18n: file: webqqconfig.ui:36
+#. i18n: ectx: property (text), widget (QLabel, passwordLabel)
+#: rc.cpp:9
+msgid "Password: "
+msgstr "密码："
+
+#: webqq.cpp:100
+msgid "WebQQ"
+msgstr "WebQQ"

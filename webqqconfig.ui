@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WebQQConfig</class>
+ <widget class="QWidget" name="WebQQConfig">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>180</height>
+   </rect>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QCheckBox" name="m_autoLogin">
+     <property name="text">
+      <string>Enable autologin</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QFormLayout" name="formLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="accountLabel">
+       <property name="text">
+        <string>Account: </string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="m_accountEdit"/>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="passwordLabel">
+       <property name="text">
+        <string>Password: </string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="m_passwordEdit">
+       <property name="echoMode">
+        <enum>QLineEdit::Password</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_loginQQ">
+     <property name="text">
+      <string>Login to QQ</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="m_invisibleMode">
+     <property name="text">
+      <string>Invisible mode</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>m_autoLogin</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>m_accountEdit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>163</x>
+     <y>49</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_autoLogin</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>m_passwordEdit</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>163</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_autoLogin</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>m_loginQQ</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>108</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_autoLogin</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>m_invisibleMode</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>129</x>
+     <y>132</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_autoLogin</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>accountLabel</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>46</x>
+     <y>49</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>m_autoLogin</sender>
+   <signal>toggled(bool)</signal>
+   <receiver>passwordLabel</receiver>
+   <slot>setEnabled(bool)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>129</x>
+     <y>19</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>41</x>
+     <y>79</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
